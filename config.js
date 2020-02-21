@@ -1,3 +1,8 @@
+/*
+ * Module:
+ *      Provides connection to database
+ */
+
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
