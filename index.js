@@ -21,5 +21,11 @@ app.post('/api/register',registerController.register);
 var authenticateController=require('./controller/authenticate-controller');
 app.post('/api/authenticate', authenticateController.authenticate);
 
+/* Get quetions handler */
+var questionsController=require('./controller/question-controller.js');
+app.post('/api/questions', questionsController.questions);
+
+
+
 server.listen(8000);
 

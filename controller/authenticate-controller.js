@@ -26,7 +26,7 @@ module.exports.authenticate = function(req, res){
                                                 status:true,
                                                 message:'successfully authenticated'
                                         })
-					console.log('successfully authenticated'
+					console.log('successfully authenticated');
 
                                 }
                                 else{
