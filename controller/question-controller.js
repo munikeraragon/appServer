@@ -18,5 +18,7 @@ module.exports.questions=function(req, res){
 	con.query(sql, [category, group], function (err, result){
 		if (err) throw err;
   		console.log(result);
+		res.json(result);
 		});
+
 }
